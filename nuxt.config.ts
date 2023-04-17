@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
-    modules: ["@nuxtjs/tailwindcss"],
+    modules: [
+      "@nuxtjs/tailwindcss",
+      '@pinia/nuxt'],
     ssr: false,
     css: [
       "primevue/resources/themes/saga-blue/theme.css",

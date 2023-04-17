@@ -1,6 +1,10 @@
+
+import MyComponent from './components/myComponent.vue';
+
 <template>
   <div>
-    <div class="bg-slate-500"> Hello </div>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
